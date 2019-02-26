@@ -1,11 +1,3 @@
 {
-  "name": "awake",
-  "private": true,
-  "scripts": {
-    "start": "nf start"
-  },
-  "dependencies": {
-    "serve": "~10.1.1",
-    "foreman": "~3.0.1"
-  }
+  "clean_urls": true
 }
