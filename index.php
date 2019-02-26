@@ -24,8 +24,8 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon fa-home"></span></a></li>
-								<li><a href="#example" id="portfolio-link"><span class="icon fa-th">hogehoge</span></a></li>
-								<li><a href="#secom" id="about-link"><span class="icon fa-user"></span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">hogehoge</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon fa-user"></span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
