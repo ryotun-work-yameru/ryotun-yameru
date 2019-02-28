@@ -162,15 +162,17 @@
 							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
 							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
 
-							<form method="post" action="#">
+							<form method="POST" id="sendmail" action="pages/sendmail.php">
 								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
+									<div class="6u 12u$(mobile)"><input type="text" name="Name" placeholder="Name" dataCheck = "mandatory" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="mailNo" placeholder="Email" dataCheck="mandatory mail"/></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message" dataCheck="mandatory"></textarea>
 									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
+									<div class="12u$">
+										<button class="btn btn-primary" id="submit">
+ 										<span class="glyphicon glyphicon-send">送信</span>
+ 										</button>
 									</div>
 								</div>
 							</form>
